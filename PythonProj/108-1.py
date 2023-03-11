@@ -1,0 +1,5 @@
+x=int(input())
+y=int(input())
+z=int(input())
+ans=(z/1.6)/(x/60+y/60/60)
+print('Speed=%.1f'%ans)
